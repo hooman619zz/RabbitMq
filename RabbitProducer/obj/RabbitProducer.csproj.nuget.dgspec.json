@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Work/Projects/rabbitmq/RabbitMq/RabbitProducer/RabbitProducer.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Work/Projects/rabbitmq/RabbitMq/RabbitProducer/RabbitProducer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Work/Projects/rabbitmq/RabbitMq/RabbitProducer/RabbitProducer.csproj",
+        "projectName": "RabbitProducer",
+        "projectPath": "/Volumes/Work/Projects/rabbitmq/RabbitMq/RabbitProducer/RabbitProducer.csproj",
+        "packagesPath": "/Users/hooman619zz/.nuget/packages/",
+        "outputPath": "/Volumes/Work/Projects/rabbitmq/RabbitMq/RabbitProducer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hooman619zz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://baget.viral-team.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

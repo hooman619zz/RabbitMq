@@ -11,4 +11,12 @@
       <PackageReference Include="RabbitMQ.Client" Version="7.1.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="obj\Debug\net8.0\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove=".gitignore" />
+    </ItemGroup>
+
 </Project>

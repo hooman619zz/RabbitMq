@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitProducer", "RabbitPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitConsumer", "RabbitConsumer\RabbitConsumer.csproj", "{D570D6D4-EC94-4B7D-80B1-ECDE25F289D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqPubSubConsumer", "RabbitMqPubSubConsumer\RabbitMqPubSubConsumer.csproj", "{EE530032-30E8-4F8A-9FA7-E86707E48CCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqPubSubProducer", "RabbitMqPubSubProducer\RabbitMqPubSubProducer.csproj", "{FFF44361-0164-42A8-9465-C0BF6649C5F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{D570D6D4-EC94-4B7D-80B1-ECDE25F289D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D570D6D4-EC94-4B7D-80B1-ECDE25F289D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D570D6D4-EC94-4B7D-80B1-ECDE25F289D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE530032-30E8-4F8A-9FA7-E86707E48CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE530032-30E8-4F8A-9FA7-E86707E48CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE530032-30E8-4F8A-9FA7-E86707E48CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE530032-30E8-4F8A-9FA7-E86707E48CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF44361-0164-42A8-9465-C0BF6649C5F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF44361-0164-42A8-9465-C0BF6649C5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF44361-0164-42A8-9465-C0BF6649C5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF44361-0164-42A8-9465-C0BF6649C5F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

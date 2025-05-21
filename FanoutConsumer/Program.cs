@@ -16,7 +16,7 @@ using var connection = await connectionFactory.CreateConnectionAsync();
 using var channel = await connection.CreateChannelAsync();
 
 
-string exchangeName = "TopicEx";
+string exchangeName = "FanoutEx";
 await channel.ExchangeDeclareAsync(exchange: exchangeName, type: ExchangeType.Fanout);
 
 string queueName = (await channel.QueueDeclareAsync()).QueueName;
